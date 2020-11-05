@@ -1,0 +1,7 @@
+.searchBar {
+    position: relative;
+    border-radius: 50px;
+    margin: 10px 0;
+    -webkit-box-direction: normal;
+    max-height: none;
+}
