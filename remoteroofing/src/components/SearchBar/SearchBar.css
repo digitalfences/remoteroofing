@@ -1,7 +1,36 @@
+
 .searchBar {
+    display: flex;
+    align-items: center;
     position: relative;
     border-radius: 50px;
     margin: 10px 0;
-    -webkit-box-direction: normal;
+    height: 60px;
+    max-width: 500px;
     max-height: none;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 3px 0 black;
+}
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 55%;
+}
+button {
+    width: 35%;
+    height: 90%;
+    border-radius: 50px;
+}
+.homeIconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 10%;
+}
+img {
+    height: 50%;
+    width: 50%;
 }
