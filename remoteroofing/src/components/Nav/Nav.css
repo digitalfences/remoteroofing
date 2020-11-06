@@ -1,0 +1,29 @@
+.completeNav {
+    background-color: #333;
+}
+.navHeader2 {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: flex-start;
+}
+.header2link {
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: center;
+    border: 0 soild transparent;
+}
+.header2link a {
+    color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header2link a strong {
+    color: white;
+}
+
+@media screen and (max-width: 479px) {
+    .header2link {
+        min-height: 48px;
+    }
+}
